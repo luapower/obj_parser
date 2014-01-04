@@ -1,7 +1,8 @@
 ---
-project: obj_parser
-title:   obj_loader
-tagline: wavefront obj loader to the OpenGL scene graph mesh format
+project:     obj_parser
+title:       obj_loader
+tagline:     wavefront obj loader to the OpenGL scene graph mesh format
+category:    3D Graphics
 ---
 
 v0.1 | LuaJIT 2, Lua 5.1, Lua 5.2

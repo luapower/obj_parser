@@ -1,6 +1,7 @@
 ---
-project: obj_parser
-tagline: callback-based wavefront obj file parser
+project:     obj_parser
+tagline:     callback-based wavefront obj file parser
+category:    3D Graphics
 ---
 
 v1.0 | LuaJIT 2, Lua 5.1, Lua 5.2
