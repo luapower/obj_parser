@@ -4,8 +4,6 @@ tagline:     callback-based wavefront obj file parser
 category:    3D Graphics
 ---
 
-v1.0 | LuaJIT 2, Lua 5.1, Lua 5.2
-
 ## `local obj_parser = require'obj_parser'`
 
 ## `obj_parser.parse(file, handlers)`
