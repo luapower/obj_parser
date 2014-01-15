@@ -1,7 +1,6 @@
 ---
 project:     obj_parser
 tagline:     callback-based wavefront obj file parser
-category:    3D Graphics
 ---
 
 ## `local obj_parser = require'obj_parser'`

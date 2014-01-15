@@ -2,7 +2,6 @@
 project:     obj_parser
 title:       obj_loader
 tagline:     wavefront obj loader to the OpenGL scene graph mesh format
-category:    3D Graphics
 ---
 
 ## `local obj_loader = require'obj_loader'`
