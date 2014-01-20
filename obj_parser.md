@@ -1,6 +1,6 @@
 ---
-project:     obj_parser
-tagline:     callback-based wavefront obj file parser
+project: obj_parser
+tagline: wavefront OBJ parser
 ---
 
 ## `local obj_parser = require'obj_parser'`
