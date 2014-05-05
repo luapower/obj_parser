@@ -6,7 +6,6 @@ local tuple = require'tuple'
 
 --begin caching
 local stdio = require'stdio'
-local pp = require'pp'
 local ffi = require'ffi'
 --end caching
 
@@ -138,7 +137,7 @@ local function load(file, use_file_cache)
 	end
 	--print('vertices:', #vbo.values/8)
 	--print('indices:', #ibo.values)
-	--pp.pp(ibo_partitions)
+	--pp(ibo_partitions)
 
 	if use_file_cache then
 		--write vbo
@@ -150,7 +149,8 @@ local function load(file, use_file_cache)
 		local sz = ffi.sizeof(data)
 		stdio.writefile(file..'.ibo.tmp', data, sz)
 		--write partitions
-		pp.fwrite(file..'.ibop.tmp', ibo_partitions)
+		local pp = require'pp'
+		pp.save(file..'.ibop.tmp', ibo_partitions)
 	end
 
 	return {
@@ -166,7 +166,7 @@ end
 if not ... then
 --load'../media/obj/nexus2/nexus2.obj'
 --load'../media/obj/cube/cube.obj'
---require'pp'.pp(load'media/obj/greek_vase1/greek_vase.obj')
+--require'pp'(load'media/obj/greek_vase1/greek_vase.obj')
 
 require'sg_gl_demo'
 
