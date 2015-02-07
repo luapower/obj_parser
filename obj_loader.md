@@ -16,5 +16,4 @@ The resulting VBO and IBO arrays and IBO partitions can be cached to a temp file
 for a small speed increase with `use_cache`.
 
 ----
-See also: [obj_parser](obj_parser.html), [sg_gl_obj](sg_gl_obj.html)
-
+See also: [obj_parser], [sg_gl_obj]

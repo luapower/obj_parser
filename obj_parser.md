@@ -37,5 +37,4 @@ handlers = {
 ~~~
 
 ----
-See also: [obj_loader](obj_loader.html)
-
+See also: [obj_loader]
