@@ -5,7 +5,7 @@ tagline: wavefront OBJ parser
 
 ## `local obj_parser = require'obj_parser'`
 
-## `obj_parser.parse(file, handlers)`
+### `obj_parser.parse(file, handlers)`
 
 Parses an obj file calling a specific handler for each piece of the file.
 
