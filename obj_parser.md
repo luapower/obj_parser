@@ -1,5 +1,4 @@
 ---
-project: obj_parser
 tagline: wavefront OBJ parser
 ---
 

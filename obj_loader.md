@@ -1,6 +1,4 @@
 ---
-project: obj_parser
-title:   obj_loader
 tagline: wavefront OBJ loader
 ---
 
